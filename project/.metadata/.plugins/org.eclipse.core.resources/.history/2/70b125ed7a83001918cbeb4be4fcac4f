@@ -1,0 +1,258 @@
+package Omok;
+
+import com.sun.org.apache.xpath.internal.operations.Bool;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
+import java.util.HashMap;
+
+public class omokBoard extends JPanel {
+    //바둑돌의 크기는 20으로 설정
+    public static final int circleSize = 20;
+    private int x, y;
+    private int coordX, coordY;
+    private char board[][];
+    private int bX, bY;
+    public int totalCount; //전체 돌 개수, 즉 몇수인지 알려주는 변수
+    private boolean check; //흰돌, 검은돌 두기를 파악하기 위해서
+    private boolean duplicated; //중복 방지
+    private HashMap<Boolean,String> userTable;
+    private omok o =null;
+    private myDialog md ;
+    private static omokBoard ob= null;
+    private int tt =1;
+    public static omokBoard getInstance(){
+        if(ob == null)
+            ob = new omokBoard();
+        return ob;
+    }
+    private omokBoard() {
+        setBackground(Color.ORANGE);
+
+    }
+    public void setSize(int x, int y){
+        this.x = x;
+        this.y = y;
+    }
+
+    public void makeBoard(){
+        if(ob.getParent() == null) {
+            o = omok.getInstance();
+            ob.addMouseListener(new myMouse());
+        }
+        ob.duplicated = false;
+        totalCount = 0;
+        board = new char[x + 1][y + 1];
+        clear();
+        repaint();
+    }
+    public Color getColor(){
+        if(check)
+            return Color.BLACK;
+        else
+            return Color.WHITE;
+
+    }
+    public void clear(){ //초기화 해주는 메소드
+        for(int i = 0 ; i< board.length ; i++){
+            for(int j = 0; j < board[i].length ; j++){
+                board[i][j] = '\0';
+            }
+        }
+    }
+    @Override
+    protected void paintComponent(Graphics g) {
+        //바둑판을 그리기 위한 변수
+        super.paintComponent(g);
+        //중복 오류 발생
+        for (int i = 0; i <= x; i++) {
+            g.drawLine(0, circleSize * i, circleSize * x, circleSize * i); //가로
+            g.drawLine(circleSize * i, 0, circleSize * i, circleSize * y); //세로
+        }
+        paintStone(g);
+        //돌아가면서 둬야한다. 여기가 문제
+
+    }
+    public boolean getTurn(){
+        return this.check;
+    }
+    public void setTurn(boolean c){
+        this.check = c;
+    }
+    //그리기
+    private void paintStone(Graphics g) {
+        int tmp = 0;
+        for (int j = 0; j < board.length; j++) {
+            for (int k = 0; k < board[j].length; k++) {
+                if (board[j][k] == 'B' || board[j][k] == 'W') {
+                    if (board[j][k] == 'W') {
+                        g.setColor(Color.WHITE); //흰색 바둑돌
+                    } else {
+                        g.setColor(Color.BLACK); //검은색 바둑돌
+                    }
+                    tmp++; //개수를 센다
+                    g.fillOval(j * circleSize, k * circleSize, circleSize, circleSize);
+                }
+            }
+        }
+        totalCount = tmp;
+    }
+    //해당 지점에서부터 3x3 영역을 맨 왼쪽 위부터 찾아본다.
+    private boolean isWin(int x, int y) {
+        int tmpCount = 0; //임시로 count하는 변수
+        int xD = 0, yD = 0; //x좌표, y좌표 차이
+        int sX = (x - 1); //3x3의 맨처음 좌표
+        int sY = (y - 1);
+        int XX, YY; //임시로 x와 y좌표를 가지는 변수
+        int i,j;
+        boolean c = false;
+        boolean cc = false;
+        for (i = 0; i < 3; i++) {
+            for (j = 0; j < 3; j++) {
+                if ((sX + j) >= 0 && (sY + i) >= 0) { //배열의 범위 내에 있는 경우
+                    if (board[sX + j][sY + i] == board[x][y]) {
+                        //기준 좌표와 3x3에서 발견된 좌표의 차이
+                        xD = (sX + j) - x;
+                        yD = (sY + i) - y;
+                        tmpCount++; //돌하나 증가
+                        XX = sX; //기존 좌표 임시 저장
+                        YY = sY;
+                        sX = x + xD; //새로운 좌표
+                        sY = y + yD;
+                        if(yD >=2 || xD >=2)
+                        {
+                            if(xD >= 2)
+                                xD=1;
+                            if(yD >= 2)
+                                yD=1;
+                        }else if(xD < 0 && yD ==0)
+                            cc = true;
+                        if (sX != x || sY != y) { //나 자신을 제외한
+                            while (true) {
+                                if ((0 <= sX && sX < this.x) && (0 <= sY && sY < this.y)) {
+                                        if (board[sX][sY] == board[x][y]) {
+                                            tmpCount++;
+                                            sX += xD;
+                                            sY += yD;
+                                            c= true;
+                                            totalCount = tmpCount; //추가
+                                        }
+                                        else{
+                                            //돌의 색깔이 다른 경우
+                                            sX = XX;
+                                            sY = YY;
+                                            tmpCount = 0;
+                                            c = false;
+                                        }
+                                } else {
+                                    //돌의 색깔이 다른 경우
+                                    sX = XX;
+                                    sY = YY;
+                                    tmpCount = 0;
+                                    c= false;
+                                }
+                                if(!c){
+                                    break;
+                                }
+                            }
+                        }else
+                        {
+                            sX = XX;
+                            sY = YY;
+                            tmpCount = 0;
+                        }
+                    }
+                }
+            }
+        }
+        if(totalCount == 5)
+            return true;
+        totalCount = 0;
+        return false;
+
+    }
+    //좌표 다시 설정, 네모칸 안에 누를 경우, 작은 것을 기준으로 채워넣는다.
+    private boolean setCoordi(int x, int y) {
+        int i;
+        //좌표상에서 있는지 없는지 확인
+        for (i = 1; i <= this.x; i++) {
+            if (x <= circleSize * i) {
+                coordX = circleSize * (i - 1);
+                break;
+            }
+        }
+        bX = i - 1;
+        for (i = 1; i <= this.y; i++) {
+            if (y <= circleSize * i) {
+                coordY = circleSize * (i - 1);
+                break;
+            }
+        }
+        bY = i - 1;
+        //중복 검사
+        if(board[bX][bY] == 'B' || board[bX][bY] == 'W')
+            duplicated = true;
+        else
+            duplicated = false;
+
+        //중복이 아닐 경우 배열에 글자 할당
+        if(!duplicated) {
+            if (check)
+                board[bX][bY] = 'B'; //블랙 추가
+            else
+                board[bX][bY] = 'W';
+        }
+        return isWin(bX,bY);
+
+    }
+    private void showMessage(boolean w){
+        o.getTimer().stop();
+        userTable = o.getUserTable();
+        String name = userTable.get(!check);
+        if(w) {
+            //승리한 사람의 이름이 팝업
+            md = new myDialog(name,board,totalCount);
+            md.setVisible(true);
+            md.setFocusable(true); //팝업창에 전환
+
+            o.setVisible(false);
+        }
+        else
+            o.getTimer().restart();
+    }
+    class myMouse extends MouseAdapter {
+        boolean winner;
+        @Override
+        public void mouseClicked(MouseEvent e) {
+            super.mouseClicked(e);
+            if(o.getTimer().isRunning()) //동작하고 있으면 멈춘다.
+            {
+                o.getTimer().stop();
+                o.initTime();
+            }
+            coordX = e.getX();
+            coordY = e.getY();
+            winner = setCoordi(coordX, coordY);
+            //o.changeColor();
+            //repaint();
+            if(!duplicated) {
+                if (check)
+                    check = false; //다음 돌 흰색
+                else
+                    check = true; //다음 돌 검은색
+            }
+            o.changeColor();
+            repaint();
+            showMessage(winner);
+        }
+
+        @Override
+        public void mouseReleased(MouseEvent e) {
+            super.mouseReleased(e);
+        }
+    }
+}

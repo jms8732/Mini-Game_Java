@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f0e9b5f5-b694-4a6f-bf11-b0660508dc54" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Omok/omokBoard.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2622">
+              <caret line="225" selection-start-line="225" selection-end-line="225" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#setSize#0;class#omokBoard#0" />
+                <element signature="method#clear#0;class#omokBoard#0" />
+                <element signature="method#isWin#0;class#omokBoard#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Omok/setBoard.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Game/gameScore.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="12" column="58" selection-end-line="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mineSearch/mineSearch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4598">
+              <caret line="331" column="11" selection-start-line="331" selection-start-column="11" selection-end-line="331" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2154#3553#0" />
+                <element signature="e#3558#4686#0" />
+                <element signature="e#4691#5907#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mineSearch/mineCount.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mineSearch/mineSize.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Omok/insertPlayer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1045">
+              <caret line="60" column="22" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Omok/myDialog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Omok/omok.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1805">
+              <caret line="103" selection-start-line="103" selection-end-line="103" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#getInstance#0;class#omok#0" />
+                <element signature="method#setSize#0;class#omok#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>confirm</find>
+      <find>check1</find>
+      <find>l4</find>
+      <find>timer</find>
+      <find>color</find>
+      <find>setBor</find>
+      <find>setCheck</find>
+      <find>changeClo</find>
+      <find>check</find>
+      <find>getColor</find>
+      <find>ob</find>
+      <find>totalCOunt</find>
+      <find>System</find>
+      <find>Syst</find>
+      <find>totalCount</find>
+      <find>correct</find>
+      <find>System.out</find>
+      <find>System.out.pinrt</find>
+      <find>System.out.println</find>
+      <find>userTable</find>
+      <find>se</find>
+      <find>처음으로</find>
+      <find>home</find>
+      <find>setColor</find>
+      <find>setSize</find>
+      <find>setTurn</find>
+      <find>label3</find>
+      <find>user1.setT</find>
+      <find>setUser</find>
+      <find>init</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/GameSetting.java" />
+        <option value="$PROJECT_DIR$/src/Game/Timer.java" />
+        <option value="$PROJECT_DIR$/src/Game/timer.java" />
+        <option value="$PROJECT_DIR$/src/mineSearch/coordi.java" />
+        <option value="$PROJECT_DIR$/src/mineSearch/insertPlayer.java" />
+        <option value="$PROJECT_DIR$/src/Game/gameSelect.java" />
+        <option value="$PROJECT_DIR$/src/Game/GameSetting.java" />
+        <option value="$PROJECT_DIR$/src/Game/gameScore.java" />
+        <option value="$PROJECT_DIR$/src/test.java" />
+        <option value="$PROJECT_DIR$/src/CounterTest.java" />
+        <option value="$PROJECT_DIR$/src/Buffer.java" />
+        <option value="$PROJECT_DIR$/src/Producer.java" />
+        <option value="$PROJECT_DIR$/src/ProducerConsumerTest.java" />
+        <option value="$PROJECT_DIR$/src/Game/myLIstener.java" />
+        <option value="$PROJECT_DIR$/src/mineSearch/mineScoreBoard.java" />
+        <option value="$PROJECT_DIR$/src/Omok/omokScoreBoard.java" />
+        <option value="$PROJECT_DIR$/src/mainPlay.java" />
+        <option value="$PROJECT_DIR$/src/mineSearch/mineSearch.java" />
+        <option value="$PROJECT_DIR$/src/Omok/omokInit.java" />
+        <option value="$PROJECT_DIR$/src/Omok/omokBoard.java" />
+        <option value="$PROJECT_DIR$/src/Omok/insertPlayer.java" />
+        <option value="$PROJECT_DIR$/src/Omok/omok.java" />
+        <option value="$PROJECT_DIR$/src/Omok/myDialog.java" />
+        <option value="$PROJECT_DIR$/src/mineSearch/mineSize.java" />
+        <option value="$PROJECT_DIR$/src/mineSearch/mineCount.java" />
+        <option value="$PROJECT_DIR$/src/Omok/setBoard.java" />
+        <option value="$PROJECT_DIR$/src/test1.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="48" />
+    <option name="y" value="18" />
+    <option name="width" value="1025" />
+    <option name="height" value="962" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jms8732\Desktop\2019_4_1\객체지향언어와실습\Project\project\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.test1">
+    <configuration name="CounterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CounterTest" />
+      <module name="project" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mainPlay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mainPlay" />
+      <module name="project" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test1" />
+      <module name="project" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.test1" />
+        <item itemvalue="Application.mainPlay" />
+        <item itemvalue="Application.CounterTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f0e9b5f5-b694-4a6f-bf11-b0660508dc54" name="Default Changelist" comment="" />
+      <created>1558782215386</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558782215386</updated>
+      <workItem from="1558782220170" duration="59763000" />
+      <workItem from="1558874595766" duration="19433000" />
+      <workItem from="1558934681999" duration="4230000" />
+      <workItem from="1558951719313" duration="4849000" />
+      <workItem from="1558963193637" duration="10213000" />
+      <workItem from="1559010834412" duration="12393000" />
+      <workItem from="1559092939844" duration="4856000" />
+      <workItem from="1559103832278" duration="9224000" />
+      <workItem from="1559122169325" duration="5533000" />
+      <workItem from="1559176711613" duration="45000" />
+      <workItem from="1559192875708" duration="1069000" />
+      <workItem from="1559289717978" duration="40000" />
+      <workItem from="1559290130294" duration="937000" />
+      <workItem from="1559357269116" duration="300000" />
+      <workItem from="1559385122251" duration="27000" />
+      <workItem from="1559445505499" duration="19533000" />
+      <workItem from="1560289309580" duration="707000" />
+      <workItem from="1561207091035" duration="215000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="153367000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="48" y="18" width="1025" height="962" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33753943" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34371108" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.47571605" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32900944" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32546583" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.32991612" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Game/myLIstener.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Omok/omokBoard.java</url>
+          <line>218</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Omok/omok.java</url>
+          <line>82</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/GameSetting.java" />
+    <entry file="file://$PROJECT_DIR$/src/Game/timer.java" />
+    <entry file="file://$PROJECT_DIR$/src/test.java" />
+    <entry file="file://$PROJECT_DIR$/src/CounterTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/ProducerConsumerTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/Buffer.java" />
+    <entry file="file://$PROJECT_DIR$/src/Game/gameSelect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game/GameSetting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game/myLIstener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainPlay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#92#93#0" expanded="true" />
+            <element signature="e#150#151#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mineSearch/coordi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mineSearch/mineScoreBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="110" column="17" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getInstance#0;class#mineScoreBoard#0" />
+            <element signature="method#addScore#0;class#mineScoreBoard#0" />
+            <element signature="method#setSocreBoard#0;class#mineScoreBoard#0" />
+            <element signature="method#sort#0;class#mineScoreBoard#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mineSearch/insertPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="66" column="5" lean-forward="true" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Omok/omokScoreBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="61" column="19" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#sort#0;class#omokScoreBoard#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Omok/omokInit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1824">
+          <caret line="105" column="35" selection-start-line="105" selection-start-column="35" selection-end-line="105" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Omok/omokBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2622">
+          <caret line="225" selection-start-line="225" selection-end-line="225" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#setSize#0;class#omokBoard#0" />
+            <element signature="method#clear#0;class#omokBoard#0" />
+            <element signature="method#isWin#0;class#omokBoard#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Omok/setBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game/gameScore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="12" column="58" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mineSearch/mineSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4598">
+          <caret line="331" column="11" selection-start-line="331" selection-start-column="11" selection-end-line="331" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2154#3553#0" />
+            <element signature="e#3558#4686#0" />
+            <element signature="e#4691#5907#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mineSearch/mineCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mineSearch/mineSize.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Omok/insertPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1045">
+          <caret line="60" column="22" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Omok/myDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Omok/omok.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1805">
+          <caret line="103" selection-start-line="103" selection-end-line="103" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getInstance#0;class#omok#0" />
+            <element signature="method#setSize#0;class#omok#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
